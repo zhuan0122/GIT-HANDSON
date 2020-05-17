@@ -6,3 +6,4 @@ add conflict 2
 add confilicts for rebase
 Add for rebase conflict
 add fea wip
+add confilct in master branch
