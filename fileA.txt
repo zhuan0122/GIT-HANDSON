@@ -2,3 +2,4 @@ features big mistake
 feature2
 feature3
 add confilict
+add conflict 2
