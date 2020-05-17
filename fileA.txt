@@ -4,3 +4,4 @@ feature3
 add confilict
 add conflict 2
 add confilicts for rebase
+Add for rebase conflict
