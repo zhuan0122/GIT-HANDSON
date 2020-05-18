@@ -1,10 +1,1 @@
-features big mistake
-feature2
-feature3
-add confilict
-add conflict 2
-add confilicts for rebase
-Add for rebase conflict
-add fea wip
-add confilct in master branch
-add confilict from reba branch
+add wip in file A
