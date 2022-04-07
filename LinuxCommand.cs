@@ -15,3 +15,4 @@ rm -rI dir1 //The -i option tells rm to prompt you to confirm the deletion of ea
            //so you may consider using the -I option what will prompt you only once before proceeding with the deletion.
 
 mv files name(navigate to files location first) targeted_path(pwd in target location to get it) //move files to location
+mv file_name_old new_file_name // change files name 
