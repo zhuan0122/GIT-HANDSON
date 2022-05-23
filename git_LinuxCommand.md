@@ -16,4 +16,9 @@ rm -rI dir1 //The -i option tells rm to prompt you to confirm the deletion of ea
 
 mv files name(navigate to files location first) targeted_path(pwd in target location to get it) //move files to location
 mv file_name_old new_file_name // change files name 
-Huan
+
+3. short cut to open git bash from windows: 
+change start in path in git bash property location and remove --cd-to-home
+
+%HOMEDRIVE%%HOMEPATH%
+C:\Users\HZHSXR\AppData\Local\Programs\Git\git-bash.exe -cd-to-home
