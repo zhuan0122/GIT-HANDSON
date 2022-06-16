@@ -52,5 +52,23 @@ git clean -fdx
 * show git graph:  git log --graph --all
 
 * check current branch's parent branch or check when you created it from which branch: 
-git log --pretty=format:'%D' HEAD^ | grep 'origin/' | head -n1 | sed 's@origin/@@' | sed 's@,.*@@' 
+git log , this will show where the current branch is created from.
 As explained in many places, it is not a direct parent, it gives you nearest branch which from current branch is created or shares same HEAD
+
+
+* difference between vi, cat, touch : https://towardsai.net/p/l/fully-explained-difference-between-cat-touch-vi-vim-and-nano-in-linux
+
+
+* check the creator of all remote branch and sorted by commiteddate
+  git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' --sort=committerdate
+
+* undo all uncommited changes: git checkout . 
+* undo changes in one or several files: git checkout [some_dir|file.txt] -- some_dir is directory path
+* undo all added changes in state: git reset
+
+
+* how to back specific version in your local branch? 
+  1. git reflog show ----show all history in your branch 
+  2. find the version Id that you want to go back and use git reset --hard idxxx. 
+
+* git reflog --date=local --all 
